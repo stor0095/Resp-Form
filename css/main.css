@@ -63,6 +63,10 @@ footer {
         display: none;
     }
     
+    input {
+        padding: .6rem;
+    }
+    
     input[type=text] {
         width: 100%;
     }
