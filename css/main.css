@@ -1,0 +1,170 @@
+/* Layout Defaults */
+
+@import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
+
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #CCa9A6;
+}
+
+.wrapper {
+    width: 90%;
+    height: 100%;
+    background-color: #FFD4D0;
+}
+
+form {
+    padding: 1rem;
+    }
+
+h3 {
+        text-align: center;
+    }
+
+label {
+    width: 50%;
+}
+
+
+.fillout {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+
+footer {
+        background-color: #7F1C13;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        margin-top: 1rem;
+        color: #EEFFEF;
+        font-size: 12px;
+    text-align: center;
+    }
+
+/* Mobile Design Layout */
+
+@media all and (min-width:0px) and (max-width:560px) {
+    .masthead, h1 {
+        background-color: #7F1C13;
+        color: #EEFFEF;
+        text-align: center;
+        font-size: 1.6rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    
+    
+    label {
+        display: none;
+    }
+    
+    input[type=text] {
+        width: 100%;
+    }
+    
+    input[type=email]{
+        width: 100%;
+    }
+    
+    input[type=url]{
+        width: 100%;
+    }
+    
+    input[type=password]{
+        width: 100%;
+    }
+    
+    input[type=submit]{
+        display: block;
+        margin: 0 auto;  
+    }
+    
+    .wrapper {
+        width: 100%;
+    }
+    
+    .formbloc {
+        padding: .7rem;
+    }
+
+}
+/* Between 35em and 60em - 560px - 960px */
+
+@media all and (min-width:561px) and (max-width:960px) {
+    .masthead, h1 {
+        background-color: #7F1C13;
+        color: #EEFFEF;
+        text-align: center;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    
+    form {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+       -moz-column-count: 2; /* Firefox */
+       column-count: 2;
+    }
+    
+    label {
+        display: block;
+        text-align: left;
+        margin: 0 0 0 3rem;
+        padding: 0.6rem 0 0.3rem 0;
+    }
+    
+    input {
+        width: 65%;
+        display: block;
+        text-align: left;
+        padding: 0.5rem 0.5rem;
+        margin: 0 0 0 3rem;
+    }
+    
+    input[type=submit]{
+        width: auto;
+        display: block;
+        margin-top: .5rem;
+    }
+  
+}
+/* Between 961px and 1600px */
+
+@media all and (min-width:960px) and (max-width:1600px) {
+    .masthead, h1 {
+        background-color: #7F1C13;
+        color: #EEFFEF;
+        text-align: center;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    
+    
+    form {
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+       -moz-column-count: 3; /* Firefox */
+       column-count: 3;
+    }
+    
+    .formbloc {
+    }
+    
+    label {
+        text-align: right;
+        float: left;
+        width: 50%;
+       
+        
+    }
+    
+    input {
+        text-align: left;
+        
+        
+    }
+    
+}

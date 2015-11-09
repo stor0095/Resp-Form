@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surrey Forum Regristration</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+   
+   <div class="wrapper">
+    <header class="masthead">   
+        <h1>Surrey Forum Registration</h1>
+    </header>
+    
+    <section class="main">
+        <h3 class="fillout">Please Fill Out</h3>
+    <form action ="process.php" method="POST">
+        <div class="formbloc">
+            <label for="First Name">First Name:</label>
+            <input type="text" id="firstname" autocomplete="on" required placeholder="First Name">
+        </div>
+        <div class="formbloc">
+            <label for="Last Name">Last Name:</label>
+            <input type="text" id="lastname" autocomplete="on" required placeholder="Last Name">
+        </div>
+        <div class="formbloc">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" autocomplete="on" required placeholder="E-mail Address">
+        </div>
+        <div class="formbloc">
+            <label for="url">Facebook Page:</label>
+            <input type="url" id="url" autocomplete="off" required placeholder="FB Page">
+        </div>
+        <div class="formbloc">
+            <label for="Password">Password:</label>
+            <input type="password" id="password1" autocomplete="off" placeholder="Password" maxlength="35" required>
+        </div>
+        <div class="formbloc">
+            <label for="password2">Confirm Password:</label>
+            <input type="password" id="password2" autocomplete="off" placeholder="Confirm Password" maxlength="35" required>
+        </div>
+        <div class="formbloc">
+            <input type="submit" id="submit" value="Submit" class="btn">
+        </div> 
+    </form>
+     </section>
+       <footer><p>&copy;2015 Surrey Grounds Inc.</p></footer>
+    </div>
+</body>
+</html>
