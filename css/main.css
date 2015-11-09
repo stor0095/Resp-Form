@@ -1,6 +1,6 @@
 /* Layout Defaults */
-
-@import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 
 *{
     padding: 0;
@@ -10,6 +10,8 @@
 
 html {
     background-color: #CCa9A6;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
 }
 
 .wrapper {
@@ -22,8 +24,9 @@ form {
     padding: 1rem;
     }
 
-h3 {
+h1, h3 {
         text-align: center;
+        font-family: 'Droid Serif', serif;
     }
 
 label {
@@ -53,11 +56,14 @@ footer {
         background-color: #7F1C13;
         color: #EEFFEF;
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         padding-top: .5rem;
         padding-bottom: .5rem;
     }
     
+    h3 {
+        margin-top: .5rem;
+    }
     
     label {
         display: none;
@@ -119,6 +125,7 @@ footer {
         text-align: left;
         margin: 0 0 0 3rem;
         padding: 0.6rem 0 0.3rem 0;
+        font-size: 14px;
     }
     
     input {
@@ -161,13 +168,13 @@ footer {
         text-align: right;
         float: left;
         width: 50%;
+        font-size: 14px;
        
         
     }
     
     input {
         text-align: left;
-        
         
     }
     
